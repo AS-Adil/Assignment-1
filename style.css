@@ -156,3 +156,45 @@ nav button{
         align-items: center;
 
     }
+/* Productive Users Section End  */
+
+
+    /* Users’ Feedback Section start */
+
+    .feedback{
+        border: 1px solid aqua;
+        width: 83vw;
+        height: 33vh;
+        margin: 58px auto;
+
+    }
+
+    .feed-sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .feed-txt p{
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+    .card-sec{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        
+        
+    }
+    .card{
+        border: 1px solid tomato;
+        width: 26vw;
+        height: 24vh
+
+    }
+    .card ul{
+        display: flex;
+        list-style-type: none
+    }
