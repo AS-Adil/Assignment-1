@@ -17,7 +17,7 @@ header {
 }
 nav {
     border: 1px solid rgb(7, 25, 161);
-    width: 85vw;
+    width: 80vw;
     height: 7vh;
     display: flex;
     justify-content:space-between;
@@ -72,12 +72,12 @@ nav button{
 
 .action{
     border: 2px solid rgb(255, 111, 0);
-    width: 87vw;
-    height: 23vh;
+    width: 83vw;
+    height: 29vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px auto;!important
+    margin: 70px auto;!important
 }
 
 .action-txt{
@@ -86,15 +86,29 @@ nav button{
     flex-direction: column;
     justify-content: space-evenly;
     /* align-items: center; */
-    height: 22vh;
+    height: 26vh;
+    background-color: #FFFFFF;
+    width: 32vw;
     
 }
 .action-txt>p{
     font-weight: bold;
     font-size: 22px;
 }
+.action-txt div{
+    font-family: raleway;
+    font-size: 11px;
+}
+.action-txt button{
+    padding: 4.5px 17px;
+}
 .action-img img{
-    border-radius: 11px;
+    border-radius: 28px;
     
 }
 
+/* Action Section End */
+
+    /* Productive Users Section Start  */
+
+    
