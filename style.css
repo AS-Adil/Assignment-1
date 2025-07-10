@@ -190,11 +190,50 @@ nav button{
     }
     .card{
         border: 1px solid tomato;
-        width: 26vw;
-        height: 24vh
+        width: 26.5vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        background-color: #FAFCFF;
 
     }
     .card ul{
         display: flex;
         list-style-type: none
     }
+
+    .card-title-sub p{
+        font-size: 15px;
+        font-weight: 100;
+
+    }
+    .card-img{
+        display: flex;
+
+        gap:14px;
+        color: #1E1E1E;
+        margin-top: 9px;
+    }
+    .card-img img{
+        border-radius: 44px;
+    }
+    .card-name p{
+        font-size: 15px;
+        font-weight: 300;
+
+    }
+    .card-name span{
+        display: block;
+        font-size: 11px;
+        font-weight: 200;
+        color: #525253;
+    }
+
+/* feedback section End */
+
+
+    /* Ready to focus better section start  */
+
+    
