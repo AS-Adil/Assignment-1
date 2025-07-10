@@ -1,21 +1,26 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;!important
 }
 header {
     border: 1px solid red;
     width: 100vw;
-    height: 40vh;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url("Assets/Hero-bg.png");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 nav {
     border: 1px solid rgb(7, 25, 161);
-    width: 100vw;
+    width: 85vw;
     height: 7vh;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
 
 }
@@ -64,3 +69,32 @@ nav button{
     padding: 6px 11px;
     border-radius: 11px;
 }
+
+.action{
+    border: 2px solid rgb(255, 111, 0);
+    width: 87vw;
+    height: 23vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;!important
+}
+
+.action-txt{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    height: 22vh;
+    
+}
+.action-txt>p{
+    font-weight: bold;
+    font-size: 22px;
+}
+.action-img img{
+    border-radius: 11px;
+    
+}
+
