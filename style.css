@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +9,7 @@
 header {
     border: 1px solid red;
     width: 100vw;
-    height: 45vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,6 +30,9 @@ nav {
 .logo{
     color: #4E47FF;
     font-weight: 900;
+    font-weight: bold;
+    font-size: 38px;
+
 
 
     
@@ -34,8 +40,11 @@ nav {
 .button{
     background-color: #4E47FF;
     color: #FFFFFF;
-    
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 550;
     border-radius: 10px;
+    padding: 6px 15px;
     
 }
 nav button{
@@ -50,6 +59,7 @@ nav button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 29px;
 }
 .banner-txt{
     border: 1px solid aqua;
@@ -59,6 +69,7 @@ nav button{
     align-items: center;
     font-weight: bold;
     font-size: 40px;
+     font-family: "Raleway", sans-serif;
 
 }
 
@@ -68,16 +79,21 @@ nav button{
     color: #FFFFFF;
     padding: 6px 11px;
     border-radius: 11px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+
 }
 
 .action{
     border: 2px solid rgb(255, 111, 0);
-    width: 83vw;
-    height: 29vh;
+    width: 73vw;
+    height: 55vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 70px auto;!important
+    gap: 55px;
+    margin: 0px auto;
+    
 }
 
 .action-txt{
@@ -85,22 +101,31 @@ nav button{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* align-items: center; */
+    
     height: 26vh;
     background-color: #FFFFFF;
+    gap: 26px;
     width: 32vw;
     
 }
 .action-txt>p{
     font-weight: bold;
     font-size: 22px;
+         font-family: "Raleway", sans-serif;
+     color: #252432;
+     font-size: 42px;
 }
-.action-txt div{
-    font-family: raleway;
-    font-size: 11px;
+
+.action-explore{
+    color:#0606076b ;
+    
 }
+
 .action-txt button{
-    padding: 4.5px 17px;
+    padding: 13px 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
 }
 .action-img img{
     border-radius: 28px;
