@@ -271,3 +271,30 @@ nav button{
         border-radius: 28px;
 
     }
+    /* focus section End */
+
+    /* Touch Section Start */
+
+    .touch{
+        border: 1px solid black;
+        width: 83vw;
+        margin: 33px auto;
+
+    }
+    .touch-sub{
+        display: flex;
+        flex-direction: ;
+    }
+    .touch-txt{
+        font-size: 30px;
+        font-weight: bolder;
+        /* width: 42vw; */
+    }
+    .touch-form label{
+        display: block;
+    }
+    .touch-form{
+        border: 1px solid aqua;
+        /* width: 42vw; */
+
+    }
