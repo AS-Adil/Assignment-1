@@ -323,11 +323,16 @@ nav button{
        
     }
 
+    .touch form label{
+        font-weight: 800;
+    }
+
 
     .touch form input {
         width: 99%;
         padding: 11px 19px;
         border-radius: 11px;
+        
 
     }
     .touch form textarea{
@@ -344,3 +349,42 @@ nav button{
     .touch form textarea::placeholder{
         font-size: 17.5px;
     }
+
+
+
+    /* Touch Section End */
+
+
+    /* Footer Section Start */
+
+
+    footer{
+        border: 1px solid tomato;
+    }
+
+    .footer-sub{
+        border: 1px solid black;
+        width: 83vw;
+        height: 35vh;
+        margin: 0px auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .footer-link {
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+        
+
+    }
+    .footer-link a{
+        text-decoration: none;
+        
+
+    }
+    
