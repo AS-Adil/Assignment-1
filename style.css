@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -280,7 +279,7 @@ nav button{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 10px;
+        gap: 13px;
         align-items: center;
     }
     .focus-txt{
@@ -288,7 +287,7 @@ nav button{
         display: flex;
         flex-direction: column;
         justify-content:space-around;
-        gap: 9px;
+        gap: 18px;
         align-items: center;
     }
  .focus-txt span{
@@ -310,8 +309,9 @@ nav button{
     .touch{
         border:1px solid #4E47FF;
         width: 83vw;
-        height: 55vh;
-        margin: 0px auto;
+        height: 61vh;
+        margin:0px auto;
+        margin-top: 108px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -328,7 +328,7 @@ nav button{
     }
 
     .touch-txt p {
-        font-size: 61px;
+        font-size: 89px;
         font-weight: bolder;
     }
     .touch-form{
@@ -364,19 +364,25 @@ nav button{
         width: 99%;
         padding: 11px 19px;
         border-radius: 11px;
+        background-color: #FFFFFF;
+        border: 0.01px solid ;
         
 
+    }
+
+    .touch form .button{
+        background-color: #4E47FF;
+        color: #FFFFFF;
     }
     .touch form textarea{
         width: 99%;
         padding: 33px 19px ;
         border-radius: 11px;
+        background-color: #FFFFFF;
+        border: 0.01px solid ;
     }
 
-    .touch form input::placeholder{
-        
-        
-    }
+
 
     .touch form textarea::placeholder{
         font-size: 17.5px;
@@ -392,12 +398,13 @@ nav button{
 
     footer{
         border: 1px solid tomato;
+        background-color: #FFFFFF;
     }
 
     .footer-sub{
         border: 1px solid black;
         width: 83vw;
-        height: 35vh;
+        height: 68vh;
         margin: 0px auto;
         text-align: center;
         display: flex;
