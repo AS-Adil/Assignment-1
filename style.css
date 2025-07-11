@@ -35,6 +35,7 @@ nav {
     font-weight: 900;
     font-weight: bold;
     font-size: 38px;
+      font-family: "Inter", sans-serif;
 
 
 
@@ -228,6 +229,7 @@ nav button{
         align-items: flex-start;
         justify-content: space-around;
         background-color: #FAFCFF;
+        border-radius: 11px;
 
     }
     .card ul{
@@ -289,6 +291,16 @@ nav button{
         justify-content:space-around;
         gap: 18px;
         align-items: center;
+
+    }
+
+    .focus-txt button{
+          font-family: "Raleway", sans-serif;
+          font-size: 16px;
+    }
+
+    .focus-txt h1{
+          font-family: "Raleway", sans-serif;
     }
  .focus-txt span{
     font-size: 11px;
@@ -326,10 +338,12 @@ nav button{
     
 
     }
+ 
 
     .touch-txt p {
         font-size: 89px;
         font-weight: bolder;
+        font-family: "Raleway", sans-serif;
     }
     .touch-form{
         border:1px solid red;
@@ -356,7 +370,9 @@ nav button{
     }
 
     .touch form label{
-        font-weight: 800;
+        font-weight: 600;
+    font-family: "Inter", sans-serif;
+
     }
 
 
@@ -366,6 +382,8 @@ nav button{
         border-radius: 11px;
         background-color: #FFFFFF;
         border: 0.01px solid ;
+          font-family: "Inter", sans-serif;
+          
         
 
     }
@@ -373,6 +391,7 @@ nav button{
     .touch form .button{
         background-color: #4E47FF;
         color: #FFFFFF;
+          font-family: "Raleway", sans-serif;
     }
     .touch form textarea{
         width: 99%;
@@ -380,6 +399,7 @@ nav button{
         border-radius: 11px;
         background-color: #FFFFFF;
         border: 0.01px solid ;
+          font-family: "Inter", sans-serif;
     }
 
 
@@ -423,7 +443,11 @@ nav button{
     }
     .footer-link a{
         text-decoration: none;
+        color: #9290a5;
         
 
+    }
+    .footer-txt{
+        color:#9290a5 ;
     }
     
